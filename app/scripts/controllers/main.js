@@ -82,7 +82,6 @@ angular.module('d3App')
                         var tmpr = r + prevValue;
                         prevValue += r;
                         r = tmpr;
-
                     }
 
                     d.size = r;
